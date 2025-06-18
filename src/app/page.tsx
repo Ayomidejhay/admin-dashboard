@@ -10,7 +10,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(true);
   const [activeTab, setActiveTab] = useState('dashboard')
 
     const renderContent = () => {
