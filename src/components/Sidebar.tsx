@@ -52,7 +52,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           )}
           <button
             onClick={onToggle}
-            className="p-1.5 rounded-lg hover:bg-slate-700 transition-colors"
+            className="p-1.5 hidden sm:block rounded-lg hover:bg-slate-700 transition-colors"
           >
             {isCollapsed ? (
               <ChevronRight size={20} />
